@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif;	margin: 0;
+}
+
+nav {
+	background-color: #243665;
+}
+
+.sidenav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	background: grey;
+	overflow-x: hidden;
+	padding-top: 100px 0;
+}
+
+.collapse {
+	background-color: #243665;
+}
+
+button.search {
+	color: white;	background-color: #ea6115;
+}
+button.search:hover {
+	color: #243665
+}
+
+span {
+	color: white;
+}
+
+header .navbar-brand {
+	font-size: 13px;
+}
+
+.activityname {
+	color: white;				text-align: center;	font-size: 30px;
+	background-color: #FF9052;	width: 100%;		padding-bottom: 8px;
+	padding-top: 5px;			border: none;		overflow: hidden;	
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);	
+}
+
+#heart, #add {
+	display: inline;	background-color: #FF9052;	height: 35px;
+	width: 35px;		border-radius: 50%;			border: none;
+	color: white;		margin-top: 15px;			margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+img.d-block {
+	width: 75%;
+  	max-width: 500px;
+  	height: auto;
+  	margin-left: auto;	margin-right: auto;
+}
+
+.activitybanner {
+	height: inherit;
+ 	width: 100%;
+	background-color: #2d3d66;
+	margin-top: 117px;
+}
+
+/*.banner {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	max-width: 500px;
+  	height: auto;
+}*/
+
+#heart {
+	margin-left: 3.5px;
+}
+
+.container {
+	height: 100%;
+	margin-bottom: 30px;
+}
